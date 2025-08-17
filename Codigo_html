@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-
+    scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Página de Exemplo</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Tudo sobre o Valorant </h1>
+        <figure>
+            <img src="img/valorant logo.png" alt="">
+        </figure>
+        <nav id="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="corpo">
+        <section id="home">
+            <h2>O QUE É O VALORANT?</h2>
+            <p>Valorant é o FPS tático gratuito da Riot Games, onde cada partida é uma combinação de estratégia, mira precisa e habilidades únicas. Em um confronto 5v5, escolha seu agente preferido, monte sua estratégia e encare rodadas intensas onde cada decisão pode definir a vitória ou a derrota.
+            Misture jogabilidade rápida com trabalho em equipe e domine mapas variados com diferentes estilos de ataque e defesa. Seja criando táticas ousadas, garantindo o clutch no final de rodada ou liderando sua equipe, em Valorant, cada bala conta.Prepare-se.Planeje. Reaja. Vença.</p>
+        </section>
+        <section id="sobre">
+            <h2>Um pouco sobre os Agentes</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/sage.webp" alt="">
+                    <h2>Sage</h2>
+                    <p>Orbe de Cura (Healing Orb): cura aliados ou a si mesma ao longo do tempo, sendo essencial após trocas de tiro.
+                    Orbe de Lentidão (Slow Orb): cria uma área que reduz a velocidade e o salto de quem passar por ela, ideal para atrasar avanços inimigos.
+                    Barreira (Barrier Orb): constrói uma parede sólida que pode bloquear entradas, proteger teammates ou criar elevações táticas.
+                    Ressurreição (Ultimate): revive um aliado abatido, mudando completamente o rumo de uma rodada.
+                    <h2>Mapas de dominio</h2>
+                    <p>Bind, Haven e Split, onde os espaços estreitos e as entradas únicas favorecem o uso da sua parede e de seus slows.</p>
+
+                    </p>
+                
+                </div>
+
+                <div class="card">
+                    <img src="img/Sova_-_Full_body.webp" alt="">
+                    <h2>Sova</h2>
+                    <p>Flecha de Reconhecimento (Recon Bolt): dispara uma flecha que revela inimigos próximos ao impacto, essencial para prever posições inimigas.
+
+                    Drone Coruja (Owl Drone): um drone voador que pode marcar inimigos com um dardo rastreador.
+
+                    Flecha Elétrica (Shock Bolt): flechas explosivas que causam dano em área, ótima para desalojar inimigos escondidos.
+
+                    Fúria do Caçador (Ultimate): três disparos de energia global que atravessam paredes e causam alto dano.</p>
+                    <h2>Mapas de dominio</h2>
+                    <p>Ascent, Bind e Breeze, onde os espaços abertos permitem um bom aproveitamento das suas flechas de informação.</p>
+                </div>
+                <div class="card">
+                    <img src="img/Fade_-_Full_Body.webp" alt="">
+                    <h2>Fade</h2>
+                    <p>Assombrar (Haunt): projeta uma entidade que marca inimigos próximos, revelando suas posições temporariamente.
+
+                    Garras de Caça (Prowlers): criaturas que perseguem e cegam inimigos ao contato, perfeita para limpar cantos ou forçar movimentações.
+
+                    Prisão da Espreitadora (Seize): cria uma área que imobiliza inimigos presos nela.
+
+                    Abraço da Noite (Ultimate): espalha uma onda de escuridão que surta e deixa surdos todos os inimigos atingidos.</p>
+                    <h2>Mapas de dominio</h2>
+                    <p>Pearl, Fracture e Lotus, que têm muitos cantos, corredores e áreas fechadas.</p>
+                </div>  
+                <div class="card">
+                    <img src="img/Omen_-_Full_body.webp" alt="">
+                    <h2>Omen</h2>
+                    <p>Passos Tenebrosos (Shrouded Step): teleporta-se silenciosamente para curtas distâncias.
+
+                    Manto Sombrio (Dark Cover): lança esferas de fumaça que bloqueiam a visão de áreas específicas, podendo ser controladas em distância e altura.
+
+                    Paranoia: projeta uma sombra linear que cega e reduz o alcance auditivo dos inimigos atravessados.
+
+                    Salto das Sombras (Ultimate): permite se teleportar para qualquer lugar do mapa, causando paranoia no inimigo que estiver por perto no momento da chegada.</p>
+                    <h2>Mapas de dominio</h2>
+                    <p>Ascent, Haven, Lotus e Split, que têm boa variedade de ângulos para suas smokes e teleports.</p>
+                </div>
+                <div class="card">
+                    <img src="img/Reyna_-_Full_body.webp" alt="">
+                    <h2>Reyna</h2>
+                    <p>Olhar Voraz (Leer): lança um orbe etéreo que reduz a visão de todos os inimigos que o veem.
+
+                    Devorar (Devour): após eliminar um inimigo, pode se curar rapidamente consumindo o orbe deixado.
+
+                    Dispensar (Dismiss): também após uma kill, pode ficar intangível por um curto período, escapando ou reposicionando.
+
+                    Imperatriz (Ultimate): aumenta sua velocidade de disparo, recarga e dá cura automática por kills.</p>
+                    <h2>Mapas de dominio</h2>
+                    <p>Bind, Haven, Split e Icebox, que favorecem duelos rápidos e com cobertura próxima.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mapas">
+            <h2>Mapas do Game</h2>
+
+            <div class="hover-container">
+                <p>Lotus</p>
+                <div class="hover-img">
+                    <img src="img/img lotus.webp" alt="lotus">
+                </div>
+            </div>
+
+            <div class="hover-container">
+                <p>Ascent</p>
+                <div class="hover-img">
+                    <img src="img/img ascent.jpg" alt="ascent">
+                </div>
+            </div>
+
+            <div class="hover-container">
+                <p>Split</p>
+                <div class="hover-img">
+                    <img src="img/img split.webp" alt="split">
+                </div>
+            </div>
+
+            <div class="hover-container">
+                <p>Pearl</p>
+                <div class="hover-img">
+                    <img src="img/img pearl.webp" alt="pearl">
+                </div>
+            </div>
+
+            <div class="hover-container">
+                <p>Haven</p>
+                <div class="hover-img">
+                    <img src="img/img haven.jpg" alt="haven">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: renanxav1905@gmail.com</p>
+            <p>Telefone: (21) 96707-5133</p>
+            <p>Localização: Rio Bonito - RJ</p>
+            <p>Instagram: <a href="https://www.instagram.com/renanx_mello/">renanx_mello</a></p>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>&copy; 2024 Minha Página. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
